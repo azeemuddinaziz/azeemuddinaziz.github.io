@@ -1,45 +1,104 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <style>
-      @import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
-      @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css"
-    />
-    <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
-    <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
   </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    *,
+    *::after,
+    *::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "poppins", sans-serif;
+      background-image: url("./media/bg-image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 350px;
+      height: 450px;
+      background-color: #d9d9d9;
+      gap: 40px;
+      border-radius: 6px;
+      box-shadow: 0px 0px 60px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .container .tick {
+      width: 110px;
+      height: 110px;
+    }
+
+    .container .submitted {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #676767;
+      font-size: 20px;
+    }
+
+    .container .go-back-to-website {
+      outline: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #676767;
+      padding: 5px 17px;
+      background-color: white;
+      border: 4px solid #676767;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: 0.5s all ease;
+    }
+    .container .go-back-to-website:hover {
+      background-color: #676767;
+      color: white;
+    }
+
+    .container .query {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+    }
+
+    .query span {
+      color: #676767;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+
+    .query a {
+      font-size: 13px;
+      color: black;
+    }
+  </style>
   <body>
-    <header class="site-header" id="header">
-      <h1 class="site-header__title" data-lead-id="site-header-title">
-        THANK YOU!
-      </h1>
-    </header>
-
-    <div class="main-content">
-      <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
-      <p class="main-content__body" data-lead-id="main-content-body">
-        Thanks a bunch for filling that out. It means a lot to us, just like you
-        do! We really appreciate you giving us a moment of your time today.
-        Thanks for being you.
-      </p>
+    <div class="container">
+      <img class="tick" src="./media/tick.png" />
+      <span class="submitted">submitted successfully!</span>
+      <a class="go-back-to-website" href="./index.html">go back to website</a>
+      <span class="query">
+        <span>for any querry Contact @:</span>
+        <a href="mailto:work.azeem08@gmailcom">work.azeem08@gmail.com</a>
+      </span>
     </div>
-
-    <footer class="site-footer" id="footer">
-      <p class="site-footer__fineprint" id="fineprint">
-        Copyright ©2014 | All Rights Reserved
-      </p>
-    </footer>
   </body>
 </html>
