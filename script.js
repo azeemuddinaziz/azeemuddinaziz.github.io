@@ -39,7 +39,7 @@ projectArray.forEach((project) => {
           <img src="${project.image}" alt="project-image" />
           <div class="action-btns">
               <a target="_blank" href="${project.websiteLink}">Website</a>
-              <a target="_blank" href="${project.sourceCodeLink}"><i class="bx bx-download"></i></a>
+              <a title="Download Source Code" target="_blank" href="${project.sourceCodeLink}"><i class="bx bx-download"></i></a>
           </div>
           </div>
       <div class="big-card__right">
