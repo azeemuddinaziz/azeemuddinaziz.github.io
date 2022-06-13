@@ -21,8 +21,9 @@ const projectArray = [
     name: "Card Flipper",
     desc: "Here is a flipable card where on one side there is a few details like name and social media handles. Whereas on the other side it has description about the person and his skills.",
     image: "./media/project-images/Project-3.png",
-    websiteLink: "#",
-    sourceCodeLink: "#",
+    websiteLink: "https://azeemuddinaziz.github.io/3D-flip-card/",
+    sourceCodeLink:
+      "https://github.com/azeemuddinaziz/3D-flip-card/archive/refs/heads/main.zip",
     tags: ["HTML", "CSS"],
   },
 ];
