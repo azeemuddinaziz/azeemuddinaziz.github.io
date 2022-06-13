@@ -240,6 +240,7 @@ body > * {
   background-color: #d9d9d9;
   margin: 0 70px;
   padding: 10px 30px;
+  padding-bottom: 40px;
 }
 
 .hire-me-pane .hire-me__title {
@@ -701,6 +702,10 @@ body > * {
     align-items: center;
   }
 
+  .hire-me-pane {
+    padding-bottom: 40px;
+  }
+
   .hire-me-pane .hire-me__title {
     justify-content: center;
   }
@@ -812,6 +817,7 @@ body > * {
     background-color: #d9d9d9;
     margin: 0 20px;
     padding: 10px 30px;
+    padding-bottom: 35px;
   }
 
   .hire-me__title span {
