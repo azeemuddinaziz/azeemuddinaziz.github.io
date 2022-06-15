@@ -148,6 +148,15 @@ body > * {
   display: flex;
   align-items: flex-start;
   gap: 50px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.project-pane .big-card:hover {
+  background-color: #b4b4b4;
+  box-shadow: 0px 0px 51px -26px rgba(0, 0, 0, 0.75);
+}
+.project-pane .big-card:hover .action-btns a {
+  color: #ffffff;
 }
 
 .big-card .big-card__left {
@@ -161,6 +170,7 @@ body > * {
   width: 180px;
   height: 110px;
   background-color: #bababa;
+  border: #ffffff 2px solid;
 }
 
 .big-card__left .action-btns {
